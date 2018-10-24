@@ -1,0 +1,17 @@
+---
+title: "Working Memory Task"
+author: Nick Davis
+output: 
+  html_document
+---
+
+```{r, include=FALSE}
+alphabet <- c("A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z")
+```
+
+|                1              |                  2            |          3                       |
+|-------------------------------|-------------------------------|----------------------------------|
+|`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |
+|`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |
+|`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |
+|`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |`r sample(alphabet, size = 3)` |
